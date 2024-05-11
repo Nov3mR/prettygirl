@@ -1,8 +1,14 @@
-header{
 
-    background-image: url("header3.png");
-    padding: 5% 40%;
-    text-align: center;
+*{
+    box-sizing: border-box;
+  }
+
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    margin:0;
 }
 
 
@@ -23,27 +29,22 @@ header{
     margin-top: 8px;
     width: 100%;
     vertical-align: middle;
-    opacity: 0.9;
+   
+    
 }
-  
 
-@media screen and (max-width:800px){
+
+ @media screen and (max-width:800px){
     .column{
       flex: 50%;
       max-width: 50%;
     }
-}
+ }
   
-  @media screen and (max-width:600px){
+@media screen and (max-width:600px){
     .column{
       flex:100%;
       max-width:100%;
     }
 }
   
-
-
-#turtle{
-    
-    align-content: center;
-}
